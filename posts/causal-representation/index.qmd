@@ -1,0 +1,9 @@
+---
+title: "casual representation learning"
+subtitle: "review"
+date: "2026-03-25"
+image: "image.jpg"
+---
+
+https://arxiv.org/abs/2102.11107
+

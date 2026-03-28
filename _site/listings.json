@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/world-models/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/hello-world/index.html",
+      "/posts/world-models/index.html",
+      "/posts/world-model-lunar-lander/index.html",
+      "/posts/causal-representation/index.html"
+    ]
+  }
+]

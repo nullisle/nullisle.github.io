@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  description: "a blog to learn"
+  search: true
+  site-url: https://nullisle.github.io
+  title: "null isle"
+  navbar:
+    title: false
+    left:
+      - text: "home"
+        href: index.qmd
+      - blog.qmd
+      - projects.qmd
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand.scss
+    css: styles.css
+
+
+

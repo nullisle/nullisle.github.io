@@ -1,0 +1,10 @@
+---
+title: ""
+image: profile.jpg
+about:
+  template: jolla
+---
+0*° N \\* 0*° E*
+
+[blog](blog.qmd){.btn .btn-outline-primary style="margin: 0.5rem;"}
+[projects](projects.qmd){.btn .btn-outline-primary style="margin: 0.5rem;"}

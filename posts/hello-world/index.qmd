@@ -1,0 +1,8 @@
+---
+title: "a new chapter."
+subtitle: ""
+date: "2026-03-25"
+image: "image.jpg"
+---
+
+writing and building in public
