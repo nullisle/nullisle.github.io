@@ -2,10 +2,11 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/rl-beginner/index.html",
       "/posts/hello-world/index.html",
-      "/posts/world-models/index.html",
       "/posts/world-model-lunar-lander/index.html",
-      "/posts/causal-representation/index.html"
+      "/posts/causal-representation/index.html",
+      "/posts/world-models/index.html"
     ]
   }
 ]

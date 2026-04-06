@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-04-05">
+
+<title>i know kung fu – null isle</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-41dbb1c65eef6c43082523590fcf8f69.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">projects</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">i know kung fu</h1>
+            <p class="subtitle lead">reinforcement learning inside the simulation</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 5, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="what-is-reinforcement-learning-and-how-does-it-connect-to-world-models" class="level1">
+<h1>What is Reinforcement Learning and How Does it Connect to World Models?</h1>
+<p>What is Reinforcement Learning and how does it connect to world models? This is the essence of the question I set out to answer, as a follow on to my post on David Ha’s World Models paper. But to get there, we need to start from the beginning and understand why RL is hard before we can appreciate what world models actually solve.</p>
+<p>Reinforcement Learning is a machine learning approach different from Supervised, Unsupervised, and Evolutionary techniques. It’s fundamentally similar to how animals learn: goal-directed learning through interaction. An animal has a goal, find edible food, and tries different things (<strong>explore</strong>) until it finds something to eat (<strong>exploit</strong>). Over time it learns through signals: pleasure for what works, pain for what doesn’t. The catch is that every exploratory step costs something. A wrong turn wastes energy. A bad meal causes harm. Learning is never free.</p>
+<p>This is the essence of how RL works, and it’s also where the central tension lives. The interaction between an agent and its environment causes learning, but that interaction has a price.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="rl-image.jpg" class="img-fluid figure-img"></p>
+<figcaption>RL interaction loop</figcaption>
+</figure>
+</div>
+<p>The core sub-components of this interaction are: policy, reward, value function, and model (optional). Using the food analogy: the policy is how the animal behaves at any given moment, driven by hunger. The reward is the signal after eating, did that help or not? The value function is survival itself, the long-horizon consequence that makes finding food matter at all. The model, the interesting one, is not just the environment the animal is in, but the animal’s internal representation of how that environment works. A desert versus a jungle isn’t just a backdrop. It’s knowledge the agent has to build and carry. That distinction will matter a lot when we get to the world model paper.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="subcomponent.png" class="img-fluid figure-img"></p>
+<figcaption>sub-components</figcaption>
+</figure>
+</div>
+<p>The most basic example is the <strong>k-armed bandit</strong> scenario. Imagine the animal repeatedly choosing between <em>k</em> foraging spots, with no ability to move between them. There’s no state, no time horizon, just a single independent choice each step. A fully <strong>greedy</strong> approach doubles down on <strong>exploiting</strong> the best known spot, at the cost of missing potentially better ones. Allowing for some <strong>exploration</strong>, an <strong>ε-greedy</strong> strategy, improves long-run rewards at the cost of short-term missed opportunities. In short, a greedy agent doesn’t know what it doesn’t know. There is a cost, at each step, in exploring an unknown action versus choosing a known valuable one.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="k-armed-bandit.png" class="img-fluid figure-img"></p>
+<figcaption>k-armed bandit</figcaption>
+</figure>
+</div>
+<p>The bandit problem keeps things simple by removing state and time. A bad exploratory step costs one reward and nothing else. What happens when your actions not only produce rewards, but change where you end up? The animal now moves across terrain, crosses rivers, goes up hills, with each decision about where to go next changing its situation. Its state is based on its location, level of hunger, and its surroundings. Each action reshapes the next decision. The sequence of actions and states from start to finish, say dawn until dusk, is called an <strong>episode</strong>.</p>
+<p>The reward is separate from the state. Did this action move the animal closer to not being hungry? The animal isn’t just optimizing for the next meal, it’s optimizing for survival across the whole episode. That cumulative future reward is called the <strong>return</strong>. Not all future rewards are equal either. Food available right now matters more than food that might be available tomorrow. The <strong>discount factor</strong> captures this, weighting near-term rewards more heavily than distant ones.</p>
+<p>The key assumption holding all of this together: the animal’s current state, where it is, how hungry it is, what’s around it, contains everything it needs to make a good decision. It doesn’t need to remember every step that led here. This is the <strong>Markov property</strong>, and it’s what makes the whole framework computationally tractable.</p>
+<p>This is where the cost from the bandit quietly multiplies. A wrong exploratory action doesn’t just miss one reward, it lands the animal somewhere worse, with fewer options, at lower energy. That ripple carries forward through every subsequent decision in the episode.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="human-foraging.png" class="img-fluid figure-img"></p>
+<figcaption>animal foraging</figcaption>
+</figure>
+</div>
+<p>Value-based methods gave the animal a map, an estimate of how good each situation is. Policy gradient methods ask: what if the animal skipped the map entirely and just learned how to act directly?</p>
+<p>One step. One trajectory. Now many full episodes. The cost keeps climbing.</p>
+<p>The animal was estimating how valuable each situation was, building a map of the landscape from experience. <strong>Policy gradient</strong> methods flip this. Rather than estimating value and deriving behavior from it, the animal directly adjusts how it behaves, its <strong>policy</strong>, based on what worked across entire episodes.</p>
+<p>The core idea is simple: run an episode, observe how well it went, and nudge the policy toward actions that produced better outcomes. This is <strong>REINFORCE</strong>. If moving to the riverbank at dawn produced a good episode, do that more. If wandering into the open plain didn’t, do that less.</p>
+<p>One episode is too noisy to learn from reliably. The animal needs many full episodes just to get a stable signal about whether a single behavioral change was actually good. This noise is called <strong>variance</strong>. A <strong>baseline</strong> helps by anchoring each episode’s return against an average so the signal is cleaner. <strong>Actor-critic</strong> methods go further, introducing a <strong>critic</strong>, a mid-episode estimate of how good a situation is, reducing the need to wait for full episode returns. But the fundamental dependency on real interactions remains.</p>
+<p>The <strong>policy gradient theorem</strong> shows you can optimize behavior without ever modeling how the environment works. That’s powerful, but it’s also the cost. Every gradient update requires the animal to actually go out and forage. There’s no shortcut, until the animal can simulate what would happen before it acts.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Scenario</th>
+<th>What’s Being Optimized</th>
+<th>Cost of Exploration</th>
+<th>What’s Missing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>k-armed bandit</td>
+<td>Single action value</td>
+<td>One real step</td>
+<td>State, time</td>
+</tr>
+<tr class="even">
+<td>Foraging across terrain</td>
+<td>Value over states and transitions</td>
+<td>One trajectory, compounds across states</td>
+<td>A model of dynamics</td>
+</tr>
+<tr class="odd">
+<td>Policy gradients</td>
+<td>Policy parameters directly</td>
+<td>Many full episodes</td>
+<td>A differentiable environment</td>
+</tr>
+<tr class="even">
+<td>World models</td>
+<td>Policy inside imagination</td>
+<td>Near zero real interactions</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Each row in this table represents the same problem getting harder. The final row is what the World Models paper actually builds.</p>
+<p>The paper built a world model for a simple game with two models working together, V and M. The V model is based on the VAE architecture, compressing raw images into a manageable latent space vector z. The M model is based on the MDN-RNN architecture, storing a compressed summary of the sequence so far in a 256 dimensional hidden state h, while also predicting what the next state will look like given the current state and action. Critically, both V and M are trained without any reward signal at all. They learn perception and dynamics first, before the RL problem even starts. Together, V and M form the world model itself. The C model, a simple RL agent, receives the compressed state z and the memory h as a single vector and uses that to decide what action to take.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="world-model.png" class="img-fluid figure-img"></p>
+<figcaption>world model</figcaption>
+</figure>
+</div>
+<p>So what do world models solve?</p>
+<p>In the reinforcement learning literature, the model is listed as an optional sub-component. Sutton and others explored this idea as far back as 1990, building simple lookup table models that captured the basic intuition but didn’t scale to complex environments. In 2018, Ha and Schmidhuber proposed an architecture that finally made it work. By combining a VAE for compressed perception and an MDN-RNN for predictive memory, they built a simulation rich enough to train inside. At every timestep, the world model delivers a compressed state and a memory of what has happened so far to a simple RL agent, without that agent ever needing to interact with the real environment.</p>
+<p>Going back to our animal one last time. The animal wakes up, perceives its surroundings through V, and draws on its memory of past episodes through M. It knows from experience that the meadow to the east had food at this time of year. Rather than wandering out and finding out the hard way, it can think it through first. It rehearses in its mind before it acts in the world.</p>
+<p>That is what world models solve. Not just sample efficiency, not just variance, but the cost of learning from reality itself. The model was always optional in the RL framework. The 2018 paper is where it finally became essential.</p>
+<hr>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<p>Sutton, R.S., Barto, A.G. (2018). <em>Reinforcement Learning: An Introduction</em> (2nd ed.). MIT Press. http://incompleteideas.net/book/the-book-2nd.html</p>
+<p>Ha, D., Schmidhuber, J. (2018). <em>World Models</em>. arXiv:1803.10122. https://arxiv.org/abs/1803.10122</p>
+<p>Schmidhuber, J. (1990). <em>Making the World Differentiable: On Using Supervised Learning Fully Recurrent Neural Networks for Dynamic Reinforcement Learning and Planning in Non-Stationary Environments</em>. Technical Report FKI-126-90, Technische Universität München.</p>
+<p>Sutton, R.S. (1990). <em>Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming</em>. Proceedings of the Seventh International Conference on Machine Learning.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/nullisle\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
