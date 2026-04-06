@@ -1,59 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-03-25T22:03:44.684Z</lastmod>
+    <loc>https://nullisle.github.io/blog.html</loc>
+    <lastmod>2026-03-28T02:22:01.049Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2026-03-23T18:58:33.810Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2026-03-25T22:02:26.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-03-25T22:04:28.667Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/index.html</loc>
-    <lastmod>2026-03-25T22:29:46.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/about.html</loc>
-    <lastmod>2026-03-25T22:15:49.226Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/blog.html</loc>
-    <lastmod>2026-03-25T22:48:46.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/projects.html</loc>
-    <lastmod>2026-03-25T22:30:31.218Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/posts/post-with-code/index.html</loc>
-    <lastmod>2026-03-25T22:02:26.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/posts/world-models/index.html</loc>
-    <lastmod>2026-03-27T14:18:42.371Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/posts/hello-world/index.html</loc>
-    <lastmod>2026-03-26T02:16:41.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/posts/causal-representation/index.html</loc>
-    <lastmod>2026-03-27T14:16:30.714Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nullisle.githib.io/posts/world-model-lunar-lander/index.html</loc>
-    <lastmod>2026-03-28T02:09:18.861Z</lastmod>
+    <loc>https://nullisle.github.io/projects.html</loc>
+    <lastmod>2026-03-28T02:22:01.051Z</lastmod>
   </url>
   <url>
     <loc>https://nullisle.github.io/posts/world-model-lunar-lander/index.html</loc>
-    <lastmod>2026-03-28T02:09:18.861Z</lastmod>
+    <lastmod>2026-03-28T02:22:01.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nullisle.github.io/posts/rl-beginner/index.html</loc>
+    <lastmod>2026-04-06T02:36:59.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nullisle.github.io/posts/hello-world/index.html</loc>
+    <lastmod>2026-03-28T02:22:01.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nullisle.github.io/posts/world-models/index.html</loc>
+    <lastmod>2026-03-28T02:22:01.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nullisle.github.io/posts/causal-representation/index.html</loc>
+    <lastmod>2026-03-28T02:22:01.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nullisle.github.io/index.html</loc>
+    <lastmod>2026-03-28T02:22:01.050Z</lastmod>
   </url>
 </urlset>

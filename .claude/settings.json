@@ -9,7 +9,10 @@
       "Bash(gh repo:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(quarto publish:*)",
+      "Bash(gh api:*)",
+      "Bash(curl -sI https://nullisle.github.io)"
     ]
   }
 }
