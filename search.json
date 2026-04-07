@@ -14,13 +14,6 @@
     "text": "Sutton, R.S., Barto, A.G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press. http://incompleteideas.net/book/the-book-2nd.html\nHa, D., Schmidhuber, J. (2018). World Models. arXiv:1803.10122. https://arxiv.org/abs/1803.10122\nSchmidhuber, J. (1990). Making the World Differentiable: On Using Supervised Learning Fully Recurrent Neural Networks for Dynamic Reinforcement Learning and Planning in Non-Stationary Environments. Technical Report FKI-126-90, Technische Universität München.\nSutton, R.S. (1990). Integrated Architectures for Learning, Planning, and Reacting Based on Approximating Dynamic Programming. Proceedings of the Seventh International Conference on Machine Learning."
   },
   {
-    "objectID": "posts/causal-representation/index.html",
-    "href": "posts/causal-representation/index.html",
-    "title": "casual representation learning",
-    "section": "",
-    "text": "https://arxiv.org/abs/2102.11107"
-  },
-  {
     "objectID": "posts/hello-world/index.html",
     "href": "posts/hello-world/index.html",
     "title": "a new chapter.",
@@ -46,7 +39,7 @@
     "href": "blog.html",
     "title": "blog",
     "section": "",
-    "text": "i know kung fu\n\n\nreinforcement learning inside the simulation\n\n\n\n\n\n\n\n\nApr 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\na new chapter.\n\n\n\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nworld model experiment\n\n\nlunar lander\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\ncasual representation learning\n\n\nreview\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nworld models\n\n\npaper review\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\n\n\n\nNo matching items"
+    "text": "i know kung fu\n\n\nreinforcement learning inside the simulation\n\n\n\n\n\n\n\n\nApr 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nworld models\n\n\npaper review\n\n\n\n\n\n\n\n\nApr 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\na new chapter.\n\n\n\n\n\n\n\n\n\n\n\nApr 1, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/world-models/index.html",
