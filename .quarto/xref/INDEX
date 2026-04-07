@@ -13,5 +13,14 @@
   },
   "posts/causal-representation/index.qmd": {
     "index.html": "8dc96308"
+  },
+  "projects.qmd": {
+    "projects.html": "f45ad688"
+  },
+  "index.qmd": {
+    "index.html": "68e4d994"
+  },
+  "posts/rl-beginner/index.qmd": {
+    "index.html": "9fbd9037"
   }
 }

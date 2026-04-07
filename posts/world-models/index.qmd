@@ -1,7 +1,7 @@
 ---
 title: "world models"
 subtitle: "paper review"
-date: "2026-03-25"
+date: "2026-04-02"
 image: "image.jpg"
 ---
 This is the beginning of my journey, starting with a dive into machine learning broadly and [world models](https://worldmodels.github.io/) more specifically. What an interesting place to start.

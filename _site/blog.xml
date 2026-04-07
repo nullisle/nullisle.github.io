@@ -133,24 +133,6 @@
   <media:content url="https://nullisle.github.io/posts/rl-beginner/kung-fu.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 <item>
-  <title>a new chapter.</title>
-  <link>https://nullisle.github.io/posts/hello-world/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>writing and building in public</p>
-
-
-
- ]]></description>
-  <guid>https://nullisle.github.io/posts/hello-world/</guid>
-  <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://nullisle.github.io/posts/hello-world/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>world models</title>
   <link>https://nullisle.github.io/posts/world-models/</link>
   <description><![CDATA[ 
@@ -175,43 +157,26 @@
 
  ]]></description>
   <guid>https://nullisle.github.io/posts/world-models/</guid>
-  <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 07:00:00 GMT</pubDate>
   <media:content url="https://nullisle.github.io/posts/world-models/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>world model experiment</title>
-  <link>https://nullisle.github.io/posts/world-model-lunar-lander/</link>
+  <title>a new chapter.</title>
+  <link>https://nullisle.github.io/posts/hello-world/</link>
   <description><![CDATA[ 
 
 
 
 
 
+<p>writing and building in public</p>
 
 
 
  ]]></description>
-  <guid>https://nullisle.github.io/posts/world-model-lunar-lander/</guid>
-  <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://nullisle.github.io/posts/world-model-lunar-lander/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>casual representation learning</title>
-  <link>https://nullisle.github.io/posts/causal-representation/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>https://arxiv.org/abs/2102.11107</p>
-
-
-
- ]]></description>
-  <guid>https://nullisle.github.io/posts/causal-representation/</guid>
-  <pubDate>Wed, 25 Mar 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://nullisle.github.io/posts/causal-representation/image.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://nullisle.github.io/posts/hello-world/</guid>
+  <pubDate>Wed, 01 Apr 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://nullisle.github.io/posts/hello-world/write-desk.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 </channel>
 </rss>
